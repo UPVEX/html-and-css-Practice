@@ -1,0 +1,79 @@
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+    font: inherit;
+    margin: 0px;
+}
+
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    background-color: #ECEFF1;
+    font-family: "Poppins";
+
+}
+.dropdown{
+    position: relative;
+}
+.dropdown__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+    width: 150px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 26px;
+    background-color: #1976D2;
+    color: #fff;
+}
+.dropdown__icon{
+    width: 22px;
+}
+.dropdown__content{
+    position: absolute;
+    top: 55px;
+    width: 140px;
+    padding: 16px;
+    border-radius: 26px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.1);
+
+    transition: all 200ms ease-in 80ms;
+    visibility: hidden;
+    opacity: 0;
+
+}
+.content{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.dropdown:hover .dropdown__content{
+    visibility: visible;
+    opacity: 1;
+}
+.dropdown:hover .dropdown__button{
+    background-color: #0D47A1;
+    width: 140px;
+    transition: all 200ms ease-in 80ms;
+}
+
+.dropdown:hover .dropdown__icon{
+    transform: rotate(180deg);
+    transition: all 200ms ease-in 80ms;
+}
