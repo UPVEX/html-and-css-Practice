@@ -1,0 +1,158 @@
+@font-face {
+    font-family: shabnam;
+    src: url(../fonts/Shabnam-FD.woff2) format(woff2);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body{
+    background-color: #fafafa;
+    font-family: shabnam, sans-serif;
+    
+}
+
+.container{
+
+    width: 1216px;
+    margin-top: 56px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.section-head{
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+
+}
+
+.section-title{
+
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+}
+
+.section-title-icon{
+
+   width: 20px;
+   height: 20px;
+   color: #1E88E5;
+
+}
+
+.section-link{
+
+    color: #1E88E5;
+    text-decoration: none;
+
+}
+
+.row{
+display: flex;
+justify-content: space-between;
+
+}
+
+.product{
+    width: 280px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+}
+
+.product__image{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.product__name{
+    margin-right: 15px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    height: 72px;
+}
+
+.product__link{
+    color: #616161;
+    text-decoration: none;
+    font-weight: normal;
+    line-height: 1.6;
+    
+
+}
+
+.product__offer{
+    margin-bottom: 10px;
+
+}
+
+.product__offer__persent{
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 15px;
+    margin-left: 10px;
+    padding: 3px;
+    background-color: #B3E5FC;
+    color: #1976D2;
+    border-radius: 5px;
+
+}
+
+.product__offer__price{
+    font-size: 14px;
+    text-decoration: line-through;
+    color: #9E9E9E;
+}
+
+.product__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+
+}
+
+.product__price{
+
+}
+
+.product__number{
+    font-weight: bold;
+
+}
+
+.product__unit{
+
+    font-size: 15px;
+    color: #9E9E9E;
+}
+
+.product__rating{
+    display: flex;
+    align-items: center;
+
+}
+
+.product__rating__number{
+    font-size: 15px;
+    color: #9E9E9E;
+
+}
+
+.product__rating__icon{
+
+    width: 19px;
+    height: 19px;
+    color: #FDD835;
+
+}
